@@ -44,7 +44,7 @@ systemctl restart jenkins
 
 现在才是运行在9090端口
 
-![image-20220517094743207](D:\ResilioSync\myBlog\docs\CI\img\image-20220517094743207.png)
+![image-20220517094743207](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/CI/img/image-20220517094743207.png)
 
 ### 2.3 插件管理
 
@@ -66,11 +66,11 @@ yum install git -y
 
 ### 2.4 添加凭证
 
-![image-20220517100150423](D:\ResilioSync\myBlog\docs\CI\img\image-20220517100150423.png)
+![image-20220517100150423](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/CI/img/image-20220517100150423.png)
 
 测试拉取代码成功（Build Now）
 
-![image-20220517100831990](C:\Users\Brandon\AppData\Roaming\Typora\typora-user-images\image-20220517100831990.png)
+![image-20220517100831990](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/CI/img/image-20220517100831990.png)
 
 ## 3. 安装Maven
 
@@ -78,7 +78,7 @@ yum install git -y
 
 上传Maven安装包到Linux实例，解压，版本最好与开发使用版本一致。
 
-![image-20220517101125649](D:\ResilioSync\myBlog\docs\CI\img\image-20220517101125649.png)
+![image-20220517101125649](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/CI/img/image-20220517101125649.png)
 
 ### 3.2 配置环境变量
 
@@ -100,11 +100,11 @@ source /etc/profile
 
 ### 3.3 在Jenkins配置JDK和Maven
 
-![image-20220517102413506](D:\ResilioSync\myBlog\docs\CI\img\image-20220517102413506.png)
+![image-20220517102413506](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/CI/img/image-20220517102413506.png)
 
-![image-20220517102521524](D:\ResilioSync\myBlog\docs\CI\img\image-20220517102521524.png)
+![image-20220517102521524](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/CI/img/image-20220517102521524.png)
 
-![image-20220517102745448](D:\ResilioSync\myBlog\docs\CI\img\image-20220517102745448.png)
+![image-20220517102745448](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/CI/img/image-20220517102745448.png)
 
 ### 3.4 添加阿里云Maven镜像
 
@@ -129,15 +129,15 @@ vi /opt/maven/conf/settings.xml
 
 添加build命令：
 
-![image-20220517103417137](D:\ResilioSync\myBlog\docs\CI\img\image-20220517103417137.png)
+![image-20220517103417137](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/CI/img/image-20220517103417137.png)
 
 控制台信息，依赖下载中：
 
-![image-20220517103505658](C:\Users\Brandon\AppData\Roaming\Typora\typora-user-images\image-20220517103505658.png)
+![image-20220517103505658](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/CI/img/image-20220517103505658.png)
 
 构建成功：
 
-![image-20220517103800075](C:\Users\Brandon\AppData\Roaming\Typora\typora-user-images\image-20220517103800075.png)
+![image-20220517103800075](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/CI/img/image-20220517103800075.png)
 
 启动项目：
 
@@ -147,4 +147,4 @@ java -jar /var/lib/jenkins/workspace/training_hub_freestyle/training_plan/target
 
 成功!!!
 
-![image-20220517104108714](D:\ResilioSync\myBlog\docs\CI\img\image-20220517104108714.png)
+![image-20220517104108714](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/CI/img/image-20220517104108714.png)

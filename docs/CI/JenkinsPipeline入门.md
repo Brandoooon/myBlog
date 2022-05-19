@@ -2,7 +2,7 @@
 
 以拉取代码为例，使用Jenkins自带的groovy代码生成器：
 
-![image-20220517112839145](D:\ResilioSync\myBlog\docs\CI\img\image-20220517112839145.png)
+![image-20220517112839145](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/CI/img/image-20220517112839145.png)
 
 生成脚本：
 
@@ -12,11 +12,11 @@ checkout([$class: 'GitSCM', branches: [[name: '*/dev']], extensions: [], userRem
 
 添加到pipeline script中：
 
-![image-20220517112941748](D:\ResilioSync\myBlog\docs\CI\img\image-20220517112941748.png)
+![image-20220517112941748](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/CI/img/image-20220517112941748.png)
 
 拉取测试成功：
 
-![image-20220517113039684](D:\ResilioSync\myBlog\docs\CI\img\image-20220517113039684.png)
+![image-20220517113039684](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/CI/img/image-20220517113039684.png)
 
 ## 2. 使用Gitlab hook自动触发构建
 
@@ -24,15 +24,15 @@ checkout([$class: 'GitSCM', branches: [[name: '*/dev']], extensions: [], userRem
 
 在Pipeline项目中添加gitlab的builder trigger：
 
-![image-20220517143401796](D:\ResilioSync\myBlog\docs\CI\img\image-20220517143401796.png)
+![image-20220517143401796](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/CI/img/image-20220517143401796.png)
 
 在系统配置中关闭Enable authentication for '/project' end-point：
 
-![image-20220517143559372](D:\ResilioSync\myBlog\docs\CI\img\image-20220517143559372.png)
+![image-20220517143559372](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/CI/img/image-20220517143559372.png)
 
 ### 2.2 Gitlab项目开启Jenkins Integration
 
-![image-20220517143452835](D:\ResilioSync\myBlog\docs\CI\img\image-20220517143452835.png)
+![image-20220517143452835](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/CI/img/image-20220517143452835.png)
 
 ## 3. 添加邮件提醒
 
@@ -73,7 +73,7 @@ sudo service docker restart
 
 1. 修改hostname和port
 
-![image-20220518111250345](D:\ResilioSync\myBlog\docs\CI\img\image-20220518111250345.png)
+![image-20220518111250345](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/CI/img/image-20220518111250345.png)
 
 2. 修改admin密码
 
