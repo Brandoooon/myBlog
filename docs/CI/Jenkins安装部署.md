@@ -44,7 +44,7 @@ systemctl restart jenkins
 
 现在才是运行在9090端口
 
-![image-20220517094743207](C:\Users\Brandon\AppData\Roaming\Typora\typora-user-images\image-20220517094743207.png)
+![image-20220517094743207](D:\ResilioSync\myBlog\docs\CI\img\image-20220517094743207.png)
 
 ### 2.3 插件管理
 
@@ -66,7 +66,7 @@ yum install git -y
 
 ### 2.4 添加凭证
 
-![image-20220517100150423](C:\Users\Brandon\AppData\Roaming\Typora\typora-user-images\image-20220517100150423.png)
+![image-20220517100150423](D:\ResilioSync\myBlog\docs\CI\img\image-20220517100150423.png)
 
 测试拉取代码成功（Build Now）
 
@@ -78,7 +78,7 @@ yum install git -y
 
 上传Maven安装包到Linux实例，解压，版本最好与开发使用版本一致。
 
-![image-20220517101125649](C:\Users\Brandon\AppData\Roaming\Typora\typora-user-images\image-20220517101125649.png)
+![image-20220517101125649](D:\ResilioSync\myBlog\docs\CI\img\image-20220517101125649.png)
 
 ### 3.2 配置环境变量
 
@@ -100,11 +100,11 @@ source /etc/profile
 
 ### 3.3 在Jenkins配置JDK和Maven
 
-![image-20220517102413506](C:\Users\Brandon\AppData\Roaming\Typora\typora-user-images\image-20220517102413506.png)
+![image-20220517102413506](D:\ResilioSync\myBlog\docs\CI\img\image-20220517102413506.png)
 
-![image-20220517102521524](C:\Users\Brandon\AppData\Roaming\Typora\typora-user-images\image-20220517102521524.png)
+![image-20220517102521524](D:\ResilioSync\myBlog\docs\CI\img\image-20220517102521524.png)
 
-![image-20220517102745448](C:\Users\Brandon\AppData\Roaming\Typora\typora-user-images\image-20220517102745448.png)
+![image-20220517102745448](D:\ResilioSync\myBlog\docs\CI\img\image-20220517102745448.png)
 
 ### 3.4 添加阿里云Maven镜像
 
@@ -129,7 +129,7 @@ vi /opt/maven/conf/settings.xml
 
 添加build命令：
 
-![image-20220517103417137](C:\Users\Brandon\AppData\Roaming\Typora\typora-user-images\image-20220517103417137.png)
+![image-20220517103417137](D:\ResilioSync\myBlog\docs\CI\img\image-20220517103417137.png)
 
 控制台信息，依赖下载中：
 
@@ -147,4 +147,4 @@ java -jar /var/lib/jenkins/workspace/training_hub_freestyle/training_plan/target
 
 成功!!!
 
-![image-20220517104108714](C:\Users\Brandon\AppData\Roaming\Typora\typora-user-images\image-20220517104108714.png)
+![image-20220517104108714](D:\ResilioSync\myBlog\docs\CI\img\image-20220517104108714.png)
