@@ -14,7 +14,7 @@ Multiavatar通过字符串随机生成一个头像，可以选择.png格式或�
 
 一是官方提供的API，使用下面的链接，红框内可以改为任意字符串，api会返回一个png或svg格式的图片，可以直接在html中使用，例如img元素的src属性。
 
-![image-20220709171250139](D:\ResilioSync\myBlog\docs\front\img\image-20220709171250139.png)
+![image-20220709171250139](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/front/img/image-20220709171250139.png)
 
 缺点是如果字符串是中文，经过html编码可能导致无法正常获取头像。
 
