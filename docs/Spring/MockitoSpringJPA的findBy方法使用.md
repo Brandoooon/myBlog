@@ -26,7 +26,7 @@ class TrainingPartServiceTest {
 
 ![image-20220520114247337](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/Spring/img/image-20220520114247337.png)
 
-正确的写法是：
+因为mock的只是trainingPartDao，trainingPartDao的返回类型是Optional，正确的写法是：
 
 ```java
 @RunWith(MockitoJUnitRunner.class)
