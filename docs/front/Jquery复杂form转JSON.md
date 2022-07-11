@@ -1,10 +1,10 @@
 ### 需求：需要转成的JSON数据格式如下：
 
-![image-20220608134257060](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/CI/img/image-20220608134257060.png)
+![image-20220608134257060](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/front/img/image-20220608134257060.png)
 
 ### 前端表单包括input和checkbox：
 
-![image-20220608134450827](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/CI/img/image-20220608134450827.png)
+![image-20220608134450827](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/front/img/image-20220608134450827.png)
 
 ### 解决方案：
 

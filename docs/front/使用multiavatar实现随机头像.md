@@ -8,7 +8,7 @@ Github：
 
 https://github.com/multiavatar/Multiavatar
 
-![image-20220709170801099](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/CI/img/image-20220709170801099.png)
+![image-20220709170801099](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/front/img/image-20220709170801099.png)
 
 Multiavatar通过字符串随机生成一个头像，可以选择.png格式或者.svg格式，使用方法主要有两种。
 
@@ -20,7 +20,7 @@ Multiavatar通过字符串随机生成一个头像，可以选择.png格式或�
 
 所以推荐第二种方式：
 
-![image-20220709171844318](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/CI/img/image-20220709171844318.png)
+![image-20220709171844318](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/front/img/image-20220709171844318.png)
 
 这里以原生js为例来演示一下：
 
@@ -41,7 +41,7 @@ svg格式如下：
 
 ````
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-    <circle cx="100" cy="50" r="40" stroke="black" stroke-width="2" fill="red" /> 
+    <frontrcle cx="100" cy="50" r="40" stroke="black" stroke-width="2" fill="red" /> 
 </svg>
 ````
 
@@ -50,7 +50,7 @@ svg格式如下：
 ````
 <div>
     <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <circle cx="100" cy="50" r="40" stroke="black" stroke-width="2" fill="red" /> 
+        <frontrcle cx="100" cy="50" r="40" stroke="black" stroke-width="2" fill="red" /> 
     </svg>
 </div>
 ````
@@ -74,4 +74,4 @@ function refreshAvatar() {
 
 效果如下：
 
-![image-20220709172810413](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/CI/img/image-20220709172810413.png)
+![image-20220709172810413](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/front/img/image-20220709172810413.png)

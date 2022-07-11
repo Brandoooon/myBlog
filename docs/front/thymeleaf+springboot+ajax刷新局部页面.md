@@ -2,7 +2,7 @@
 
 项目后台使用springboot，用thymeleaf渲染页面。原本页面展示一个列表的数据，需要实现按时间对列表数据进行排序：
 
-![image-20220709165326589](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/CI/img/image-20220709165326589.png)
+![image-20220709165326589](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/front/img/image-20220709165326589.png)
 
 ### 2. 解决方案
 
@@ -18,7 +18,7 @@
 
 新创建的fragment页面
 
-![image-20220709170029608](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/CI/img/image-20220709170029608.png)
+![image-20220709170029608](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/front/img/image-20220709170029608.png)
 
 在controller中增加对应的接口：
 

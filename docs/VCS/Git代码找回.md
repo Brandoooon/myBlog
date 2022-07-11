@@ -8,7 +8,7 @@ git fsck --lost-found
 
 然后.git文件夹会出现一个lost-found文件夹：
 
-![image-20220605155910062](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/CI/img/image-20220605155910062.png)
+![image-20220605155910062](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/VCS/img/image-20220605155910062.png)
 
 用文本打开，还好都在。
 
