@@ -1,3 +1,5 @@
+# JenkinsPipeline入门
+
 ## 1. 了解pipeline script代码生成器
 
 以拉取代码为例，使用Jenkins自带的groovy代码生成器：
@@ -125,6 +127,19 @@ docker pull 127.0.0.1:85/traininghub/traininghub:v2
 ## 7.使用Jenkins打包镜像
 
 ### 7.1 制作dockerfile
+
+````dockerfile
+FROM openjdk:8-jdk-alpine
+ARG JAR_FILE
+COPY ${JAR_FILE} app.jar
+RUN apk add alpine-conf && \
+        /sbin/setup-timezone -z Asia/Shanghai && \
+        apk del alpine-conf
+EXPOSE 8080
+ENTRYPOINT ["java","-jar","/app.jar","--spring.profiles.active=prod"]
+````
+
+其中RUN是时区设置为UTC+8。
 
 ### 7.2 （踩坑）为jenkins添加操作docker的权限
 

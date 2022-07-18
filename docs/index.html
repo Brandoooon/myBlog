@@ -8,22 +8,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <!--
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/buble.css">
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css">
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/pure.css">
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dolphin.css">
--->
+
 </head>
-<body>
+
+<body class="close">
   <nav>
     <a href="#/">home</a>
-    <a href="#/about/">about</a>
   </nav>
   <div id="app">
   
   </div>
+
+  
   <script>
     window.$docsify = {
       name: '',
@@ -31,29 +27,14 @@
 	  loadSidebar: false,
 	  coverpage: false,
 	  loadNavbar: true,
-	  autoHeader: true,
-	  vueGlobalOptions: {
-		data() {
-			return {
-				count: 0,
-			};
-		},
-	  },
-	  vueMounts: {
-    '#message': {
-      data() {
-        return {
-          message: 'hello vue'
-        };
-      },
-    },
-  },
+	  autoHeader: false
     }
   </script>
-  <!-- Docsify v4 -->
+  
+    <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="//cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+
 </body>
 </html>

@@ -1,14 +1,16 @@
-### 1. 需求
+# thymeleaf+springboot+ajax刷新局部页面
+
+## 1. 需求
 
 项目后台使用springboot，用thymeleaf渲染页面。原本页面展示一个列表的数据，需要实现按时间对列表数据进行排序：
 
 ![image-20220709165326589](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/front/img/image-20220709165326589.png)
 
-### 2. 解决方案
+## 2. 解决方案
 
 利用thymeleaf的fragment来替换需要刷新的内容，具体实现如下：
 
-#### 2.1 后端
+### 2.1 后端
 
 先创建一个新的fragment页面，保存刷新后后端返回的数据。
 
@@ -40,7 +42,7 @@
 
 返回 return "fragments/plans::sortedPlan";
 
-#### 2.2 前端
+### 2.2 前端
 
 ````javascript
 function sortDesc() {

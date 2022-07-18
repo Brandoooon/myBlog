@@ -1,12 +1,14 @@
-### 需求：需要转成的JSON数据格式如下：
+# Jquery复杂form转JSON
+
+需求：需要转成的JSON数据格式如下：
 
 ![image-20220608134257060](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/front/img/image-20220608134257060.png)
 
-### 前端表单包括input和checkbox：
+前端表单包括input和checkbox：
 
 ![image-20220608134450827](https://cdn.jsdelivr.net/gh/Brandoooon/myBlog/docs/front/img/image-20220608134450827.png)
 
-### 解决方案：
+解决方案：
 
 1. 名称、背景、总结说明部分都是普通文本输入，不赘述。
 
